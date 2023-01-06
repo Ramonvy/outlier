@@ -203,7 +203,7 @@ cada contato*/
 
     /*Definindo os parametros do texto relacionado a
     cada contato*/
-    #contacts .cts p{
+    #contacts .cts p, #contacts .cts p a{
         font-family: Round Pro Condensed;
         color: #45FFC7;
         padding-left: 0%;
@@ -217,6 +217,10 @@ cada contato*/
         /*background: #00f;*/
         display: inline-block;
     }
+
+    #contacts .cts p a{
+        text-decoration: none;
+    }
 }
 
 
@@ -225,7 +229,7 @@ cada contato*/
 
     /*Definindo os parametros do texto relacionado a
     cada contato*/
-    #contacts .cts p{
+    #contacts .cts p, #contacts .cts p a{
         font-family: Round Pro Condensed;
         color: #45FFC7;
         padding-left: 0%;
@@ -235,9 +239,13 @@ cada contato*/
         line-height: 100%;
         width: max-content;
         height: fit-content;
-        /*margin: auto;*/
+        margin: auto;
         /*background: #00f;*/
         display: inline-block;
+    }
+
+    #contacts .cts p a{
+        text-decoration: none;
     }
 }
   
